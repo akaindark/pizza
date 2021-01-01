@@ -1,0 +1,16 @@
+/*=====Banner=====*/
+
+.banner {
+  height: 100vh;
+  background: #0e1418 url('../../images/dest/banner-bg.jpg') center / cover
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__info {
+    @include mont;
+    font-size: 2.4rem;
+    color: $yellow;
+  }
+}
